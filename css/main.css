@@ -5,7 +5,6 @@ body {
     display: inline;
 }
 .list-item {
-    float: left;
     padding: 5px;
 }
 .list-item h3 {
@@ -20,7 +19,7 @@ body {
 .intro {
     color: #33004d;
     width: 45%;
-    padding: 20px 15%  20px 15% ;
+    padding: 10px 5%  10px 5% ;
 }
 .intro h4 {
     color: #550080;
@@ -42,5 +41,6 @@ a {
     width: 43%;
 }
 #music {
-    padding: 10px;
+    padding: 0px;
+    float: left;
 }
