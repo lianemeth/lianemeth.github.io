@@ -1,5 +1,12 @@
 body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-image: url("../img/morris-background3.jpg");
+    background-repeat: repeat-y;
+    background-color:#BEB9A6;
+}
+.content {
+    max-width: 1200px;
+    margin: auto;
 }
 .name {
     display: inline;
@@ -8,27 +15,39 @@ body {
     padding: 5px;
 }
 .list-item h3 {
-    color: #ecccff;
+    color: #6A7C86;
     font-size: 25px;
+    background-color: #BEB9A6;
+    width: 180px;
 }
 .list-item-content {
-    background-color: #ecccff;
-    border-radius: 5px;
-    padding: 5px;
+    background-color: #BEB9A6;
+    border-radius: 25% 10%;
+    padding: 15px;
+}
+.list-content-music { 
+    background-color: #BEB9A6;
+    border-radius: 5% 40%;
+    padding: 20px;
 }
 .intro {
-    color: #33004d;
-    width: 45%;
-    padding: 10px 5%  10px 5% ;
+    background-color: #BEB9A6;
+    border-radius: 10% 25%;
+    padding: 5px;
+    color: #1a0000;
+    width: 50%;
+    font-size: 18px;
+    letter-spacing: 3px;
 }
 .intro h4 {
-    color: #550080;
+    color: #1a0000;
 }
 a {
-    color: #cc66ff;
+    color: #1a0000;
+    letter-spacing: 3px;
 }
 #social {
-    width: 11.5%;
+    width: 15%;
 }
 #social img{
     padding: 1px;
