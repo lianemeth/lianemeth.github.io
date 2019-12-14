@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 800px) {
   #intro-talk {
-    padding: 6%;
+    padding: 8%;
     min-width: 350px;
   }
 }
@@ -32,12 +32,12 @@ h3 {
 }
 
 h1 {
-    color: #001;
+    color: #333746;
 }
 
 #intro-talk {
     background-color: #BEB9A6;
-    color: #000;
+    color: #333746;
     height: auto;
     width: 25%;
     border-radius: 20%;
@@ -47,7 +47,7 @@ h1 {
 }
 
 a {
-    color: #000;
+    color: #333746;
 }
 
 #social img{
