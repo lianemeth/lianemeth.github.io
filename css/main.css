@@ -1,65 +1,48 @@
-body {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    background-image: url("../img/morris-background3.jpg");
-    background-repeat: repeat-y;
-    background-color:#BEB9A6;
+*{
+    font-family: sans-serif;
 }
-.content {
-    max-width: 1200px;
-    margin: auto;
+
+.content{
+    display: flex;
+    justify-content: space-around;
 }
-.name {
-    display: inline;
-}
+
 .list-item {
-    padding: 5px;
+    padding: 1%;
 }
-.list-item h3 {
-    color: #6A7C86;
-    font-size: 25px;
+
+h3 {
+    color: #71838D;
+}
+
+h1 {
+    color: #001;
+}
+
+#intro-talk {
     background-color: #BEB9A6;
-    width: 180px;
+    padding: 3%;
+    color: #000;
+    width: 25%;
+    border-radius: 20%;
+    box-shadow: 10px 10px grey;
+    line-height: 18px;
 }
-.list-item-content {
-    background-color: #BEB9A6;
-    border-radius: 25% 10%;
-    padding: 15px;
-}
-.list-content-music { 
-    background-color: #BEB9A6;
-    border-radius: 5% 40%;
-    padding: 20px;
-}
-.intro {
-    background-color: #BEB9A6;
-    border-radius: 10% 25%;
-    padding: 5px;
-    color: #1a0000;
-    width: 50%;
-    font-size: 18px;
-    letter-spacing: 3px;
-}
-.intro h4 {
-    color: #1a0000;
-}
+
 a {
-    color: #1a0000;
-    letter-spacing: 3px;
+    color: #000;
 }
-#social {
-    width: 15%;
-}
+
 #social img{
-    padding: 1px;
     opacity: 0.9;
+    max-width: 10%;
 }
 #social img:hover{
     opacity: 0.6;
 }
-#talk {
-    width: 43%;
-}
-#music {
-    padding: 0px;
-    float: left;
+
+#bandcamp iframe{
+    width: 100%;
+    border:0;
+    height: 47px;
 }
