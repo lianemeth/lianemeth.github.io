@@ -9,21 +9,17 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 376px) {
-  .content {
-    font-size: 100%;
-  }
+@media screen and (min-width: 801px) {
   #intro-talk {
     padding: 3%;
+    min-width: 250px;
     }
 }
 
-@media screen and (max-width: 375px) {
-  .content {
-    font-size: 80%;
-  }
+@media screen and (max-width: 800px) {
   #intro-talk {
     padding: 6%;
+    min-width: 350px;
   }
 }
 
@@ -42,11 +38,12 @@ h1 {
 #intro-talk {
     background-color: #BEB9A6;
     color: #000;
+    height: auto;
     width: 25%;
-    min-width: 250px;
     border-radius: 20%;
     box-shadow: 10px 10px grey;
     line-height: 2%x;
+    font-size:15px;
 }
 
 a {
