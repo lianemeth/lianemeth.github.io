@@ -10,16 +10,21 @@
 }
 
 @media screen and (min-width: 801px) {
+  .listings {
+    max-width:50%;
+  }
   #intro-talk {
     padding: 3%;
     min-width: 250px;
+    width: 30%;
     }
 }
 
 @media screen and (max-width: 800px) {
   #intro-talk {
     padding: 8%;
-    min-width: 350px;
+    min-width: 200px;
+    width: 40%;
   }
 }
 
@@ -39,7 +44,6 @@ h1 {
     background-color: #BEB9A6;
     color: #333746;
     height: auto;
-    width: 25%;
     border-radius: 20%;
     box-shadow: 10px 10px grey;
     line-height: 2%x;
