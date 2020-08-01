@@ -1,1 +1,0 @@
-module.exports = require("/Users/lianemeth/git/lianemeth.github.io/src/utils/typography")
