@@ -3,12 +3,15 @@ module.exports = {
     title: `Lia Nemeth`,
     author: {
       name: `Lia Nemeth`,
-      summary: `Heyo new blog check`,
+      summary: `is a  Software & Security Engineer, passionate about automation for AppSec/OpSec/*Sec.`,
     },
-    description: `ducks`,
+    description: `blog about software security and systems`,
     siteUrl: `https://lianemeth.com/`,
     social: {
-      twitter: `lia_nemeth_`,
+      twitter: `https://twitter.com/lia_nemeth_`,
+      linkedin: `https://www.linkedin.com/in/lia-nemeth`,
+      github: `https://github.com/lianemeth`,
+      bandcamp: `https://lianemeth.bandcamp.com/`
     },
   },
   plugins: [
@@ -76,8 +79,5 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
