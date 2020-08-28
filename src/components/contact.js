@@ -24,27 +24,24 @@ const Contact = () => {
     const social = data.site.siteMetadata.social
     return (
         <>
-        <h4>Contact</h4>
+        <h3
+        style={{
+            marginBottom: rhythm(1),
+            marginTop: rhythm(1)
+        }}
+        >Contact Me</h3>
         <ul
         style={{
-            ...scale(0.1),
             listStyleType: "none",
-            marginBottom: rhythm(0.2),
-            marginTop: 0
+            marginBottom: rhythm(1),
+            marginTop: 0,
+            paddingBottom: `${rhythm(1.5)} ${rhythm(1)}`,
         }}
         >
-            <li>
-                <a href={social.twitter}>twitter</a>
-            </li>
-            <li>
-                <a href={social.linkedin}>linkedin</a>
-            </li>
-            <li>
-                <a href={social.github}>github</a>
-            </li>
-            <li>
-                <a href={social.bandcamp}>bandcamp</a>
-            </li>
+                <a href={social.twitter}>twitter</a> {"| "}
+                <a href={social.linkedin}>linkedin</a> {"| "}
+                <a href={social.github}>github</a> {"| "}
+                <a href={social.bandcamp}>bandcamp</a> 
         </ul>
         </>
     )
