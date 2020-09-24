@@ -3,7 +3,7 @@ module.exports = {
     title: `Lia Nemeth`,
     author: {
       name: `Lia Nemeth`,
-      summary: `is a  Software & Security Engineer, passionate about automation for AppSec/OpSec/*Sec.`,
+      summary: `is a  Software Engineer with a passion for music, games and security.`,
     },
     description: `blog about software security and systems`,
     siteUrl: `https://lianemeth.com/`,
@@ -56,7 +56,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-178952778-1`,
       },
     },
     `gatsby-plugin-feed`,
