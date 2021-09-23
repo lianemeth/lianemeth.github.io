@@ -12,6 +12,7 @@ const Contact = () => {
         site {
         siteMetadata {
                 social {
+                    twitch
                     twitter
                     linkedin
                     github
@@ -38,6 +39,7 @@ const Contact = () => {
             paddingBottom: `${rhythm(1.5)} ${rhythm(1)}`,
         }}
         >
+                <a href={social.twitch}>twitch</a> {"| "}
                 <a href={social.twitter}>twitter</a> {"| "}
                 <a href={social.linkedin}>linkedin</a> {"| "}
                 <a href={social.github}>github</a> {"| "}

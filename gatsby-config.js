@@ -3,11 +3,12 @@ module.exports = {
     title: `Lia Nemeth`,
     author: {
       name: `Lia Nemeth`,
-      summary: `is a  Software Engineer with a passion for music, games and security.`,
+      summary: `is a software engineer and musician.`,
     },
-    description: `blog about software security and systems`,
+    description: `blog about software, music and games.`,
     siteUrl: `https://lianemeth.com/`,
     social: {
+      twitch:  `https://twitch.com/frogsynth`,
       twitter: `https://twitter.com/lia_nemeth_`,
       linkedin: `https://www.linkedin.com/in/lia-nemeth`,
       github: `https://github.com/lianemeth`,
